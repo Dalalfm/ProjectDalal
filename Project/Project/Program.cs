@@ -5,7 +5,6 @@ using System.Text;
 using System.Data;
 using System.IO;
 using System.Linq;
-
 class Project
 {
     //Variables
@@ -14,12 +13,11 @@ class Project
     public static string claass;
     public static string section;
     static void Main(string[] args)
-    {
-       
+    {       
         Console.WriteLine("****************************************");
-        Console.WriteLine("Welcome to Rainbow School Storing System!");
+        Console.WriteLine("Welcome to Rainbow School System!");
         Console.WriteLine("*****************************************");
-        Console.WriteLine("Add New Data or Update By Inserting ID:");
+        Console.WriteLine("Inter an ID to update Data or create new ");
         //Readings of user
         id = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Name:");
