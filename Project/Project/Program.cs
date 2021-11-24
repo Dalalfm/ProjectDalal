@@ -60,7 +60,7 @@ class Project
                                 sw.WriteLine(line);
                             }
                         }
-                        Console.WriteLine("Data Edited!");
+                        Console.WriteLine("Data Updated!");
 
                     }
                 }
